@@ -31,3 +31,4 @@ end
 
 b = Book.new
 p b.print_to_screen # => print at printable
+p Book.ancestors # [Book, Printable, Document, Object, Kernel, BasicObject]
